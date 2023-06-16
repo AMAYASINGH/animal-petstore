@@ -1,0 +1,318 @@
+/* -------------------banner-1------------------- */
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #f0f0f0;
+}
+
+.navbar-toggler:focus {
+    box-shadow: none;
+}
+
+#mynav ul {
+    margin: 0% auto;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+}
+
+.img1 {
+    position: absolute;
+    z-index: -1;
+    width: 30%;
+    left: 29%;
+    top: -13%;
+}
+
+.img2 {
+    position: absolute;
+    width: 50%;
+    left: 48.63%;
+    bottom: -2%;
+}
+
+.img3 {
+    position: relative;
+    width: 44.7%;
+    left: 16.82%;
+    top: 5%;
+}
+
+.myanimals {
+    position: absolute;
+    text-align: left;
+    width: 35%;
+    left: 4%;
+    bottom: 30%;
+}
+
+.myanimals p {
+    font-family: 'Rubik', sans-serif;
+
+}
+
+.myanimals button {
+    background-color: #f2968f;
+    box-shadow: 2px 0px 7px black;
+    padding: 2% 16%;
+}
+
+.myanimals button:hover {
+    background-color: #f2827a;
+}
+/* ---------------------banner-2-------------------*/
+
+.about{
+    background-color:white;
+    background-image: url(../images/Union.png);
+    position: absolute;
+    width: 100%;
+    top: 94%;
+    left: 0%;
+    border-top: 3px solid #f2968f;
+    box-shadow: 0px -1px 6px black;
+}
+.about-us{
+    position: relative;
+}
+
+.about img[alt="Ellipse 3"]{
+    position: relative;
+    margin: 4% 0%;
+    left: -25%;
+    width: 27%;
+}
+
+.about img[alt="dog image2"]{
+    position: absolute;
+    top: 16%;
+    left: 17.5%;
+    width: 16%;
+}
+
+.about-us > div{
+    position: absolute;
+    left: 17%;
+    top: 56%;
+    background-color: #dec1e9;
+    width: 69%;
+    padding: 1% 4% 1% 1%;
+    text-align: left;
+}
+
+.about-us > div >p{
+    margin: 0;
+    padding-left: 26%;
+    font-size: 1.2rem;
+    font-size: 'Rubik', sans-serif;
+}
+.about-us > p{
+    font-family: 'Rubik', sans-serif;
+    font-weight: 600;
+    margin: 0;
+    position: absolute;
+    left: 40%;
+    top: 38%;
+    text-transform: uppercase;
+}
+
+/* -----------Banner 2----------------- */
+
+.b2-div{
+    box-sizing: border-box;
+    margin-top: 250px;
+    padding-top: 250px;    background-color: #e27971;
+}
+
+.b2-img-div{
+    position: relative;
+    padding-left: 10%;
+}
+.b2-img-div img[alt="boy and dog"]{
+    width: 80%;
+}
+.b2-img-div img[alt="Ellipse 4"]{
+    position:absolute;
+    left: 16%;
+    width: 20%;
+}
+
+.b2-img-div img[alt="1"]{
+    position: absolute;
+    left: 21%;
+    top: 4%;
+    width: 6%;
+}
+.b2-des{
+    position: relative;
+    padding: 10% 4%;
+    text-align: left;
+}
+.b2-des h2{
+    font-family: 'Rubik', sans-serif;
+    text-transform: uppercase;
+}
+.b2-des p{
+    font-family: cursive;
+}
+
+
+/* ----------------------------All Media Query------------------------------ */
+
+
+/* ---------------Banner-1------------- */
+@media (max-width:576px) {
+    #mynav ul {
+        width: 30%;
+        margin: 0;
+        text-align: left;
+        font-size: 1rem !important;
+        padding: 2% 0;
+    }
+
+    #mynav li:nth-child(2n) {
+        display: none;
+    }
+
+    .myanimals {
+        bottom: 8%;
+    }
+    .myanimals p,
+    .myanimals button {
+        font-size: 1rem !important;
+    }
+
+     /* -------------------about section----------------------- */
+    
+     .about-us >p{
+        font-size: .9rem !important;
+    }
+
+    .about-us > div>p{
+        font-size: .65rem;
+    }
+     /* banner 2 */
+     .b2-div{
+        margin-top: 50px;
+        padding-top: 25%;
+    }
+    .b2-img-div{
+        padding: 0;
+        width: 50%;
+        margin: 0% auto;
+    }
+    .b2-des{
+      text-align: center;
+      width: 80%;
+      margin: 0% auto;
+    }
+    .b2-des h2{
+        font-size: 1.5rem;
+    }
+    .b2-des p{
+        font-size: 0.9rem !important;
+        text-align: justify;
+    }
+
+
+}
+
+@media (min-width:576px) and (max-width:768px) {
+    #mynav ul {
+        width: 30%;
+        margin: 0;
+        text-align: left;
+        font-size: 1rem !important;
+        padding: 2% 0;
+    }
+
+    #mynav li:nth-child(2n) {
+        display: none;
+    }
+   .myanimals {
+        bottom: 8%;
+    }
+   .myanimals p,
+    .myanimals button {
+        font-size: 1rem !important;
+    }
+
+    /* -------------------about section----------------------- */
+    
+    .about-us >p{
+        font-size: 1.4rem !important;
+    }
+
+    .about-us > div>p{
+        font-size: .8rem;
+    }
+     /* banner 2 */
+     .b2-div{
+        margin-top: 100px;
+        padding-top: 180px;
+    }
+    .b2-img-div{
+        padding: 0;
+        width: 50%;
+        margin: 0% auto;
+    }
+    .b2-des{
+      text-align: center;
+      width: 80%;
+      margin: 0% auto;
+    }
+    .b2-des h2{
+        font-size: 1.8rem;
+    }
+    .b2-des p{
+        font-size: 1.2rem !important;
+        text-align: justify;
+    }
+
+}
+   
+
+@media (min-width:768px) and (max-width:992px) {
+    
+    /* banner 2 */
+    .b2-div{
+        margin-top: 170px;
+        padding-top: 160px;
+    }
+    .b2-des{
+        padding-top: 6.8%;
+    }
+    .b2-des h2{
+        font-size: 1.5rem;
+    }
+    .b2-des p{
+        font-size: 1.1rem !important;
+    }
+}
+
+@media (min-width:992px) and (max-width:1200px) {
+
+    /* banner 2 */
+    .b2-div{
+        padding-top: 150px;
+    }
+    .b2-des h2{
+        font-size: 1.5rem;
+    }
+    .b2-des p{
+        font-size: 1.1rem !important;
+    }
+
+}
+
+@media (min-width:1200px) and (max-width:1400px) {
+
+    /* Banner 2 */
+    .b2-des h2{
+        font-size: 1.8rem;
+    }
+    .b2-des p{
+        font-size: 1.3rem !important;
+    }
+
+}
