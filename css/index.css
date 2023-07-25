@@ -60,10 +60,11 @@ body {
 .myanimals button:hover {
     background-color: #f2827a;
 }
-/* ---------------------banner-2-------------------*/
 
-.about{
-    background-color:white;
+/* ----------------------------------banner-2------------------------------------*/
+
+.about {
+    background-color: white;
     background-image: url(../images/Union.png);
     position: absolute;
     width: 100%;
@@ -72,25 +73,26 @@ body {
     border-top: 3px solid #f2968f;
     box-shadow: 0px -1px 6px black;
 }
-.about-us{
+
+.about-us {
     position: relative;
 }
 
-.about img[alt="Ellipse 3"]{
+.about img[alt="Ellipse 3"] {
     position: relative;
     margin: 4% 0%;
     left: -25%;
     width: 27%;
 }
 
-.about img[alt="dog image2"]{
+.about img[alt="dog image2"] {
     position: absolute;
     top: 16%;
     left: 17.5%;
     width: 16%;
 }
 
-.about-us > div{
+.about-us>div {
     position: absolute;
     left: 17%;
     top: 56%;
@@ -100,13 +102,14 @@ body {
     text-align: left;
 }
 
-.about-us > div >p{
+.about-us>div>p {
     margin: 0;
     padding-left: 26%;
     font-size: 1.2rem;
     font-size: 'Rubik', sans-serif;
 }
-.about-us > p{
+
+.about-us>p {
     font-family: 'Rubik', sans-serif;
     font-weight: 600;
     margin: 0;
@@ -116,44 +119,156 @@ body {
     text-transform: uppercase;
 }
 
-/* -----------Banner 2----------------- */
+/* -----------------------------------Banner 2------------------------------------ */
 
-.b2-div{
+.b2-div {
     box-sizing: border-box;
     margin-top: 250px;
-    padding-top: 250px;    background-color: #e27971;
+    padding-top: 250px;
+    background-color: #e27971;
 }
 
-.b2-img-div{
+.b2-img-div {
     position: relative;
     padding-left: 10%;
 }
-.b2-img-div img[alt="boy and dog"]{
+
+.b2-img-div img[alt="boy and dog"] {
     width: 80%;
 }
-.b2-img-div img[alt="Ellipse 4"]{
-    position:absolute;
+
+.b2-img-div img[alt="Ellipse 4"] {
+    position: absolute;
     left: 16%;
-    width: 20%;
+    width: 18%;
 }
 
-.b2-img-div img[alt="1"]{
+.b2-img-div img[alt="1"] {
     position: absolute;
     left: 21%;
     top: 4%;
-    width: 6%;
+    width: 5%;
 }
-.b2-des{
+
+.b2-des {
     position: relative;
     padding: 10% 4%;
     text-align: left;
 }
-.b2-des h2{
+
+.b2-des h2 {
     font-family: 'Rubik', sans-serif;
     text-transform: uppercase;
 }
-.b2-des p{
+
+.b2-des p {
     font-family: cursive;
+}
+
+/* ------------------------------Banner 3------------------------ */
+.b3-div {
+    background-color: #7383D9;
+    box-sizing: border-box;
+}
+
+.b3-img-div {
+    position: relative;
+    padding-top: 8%;
+}
+
+.b3-img-div img[alt="cat"] {
+    width: 80%;
+}
+
+.b3-img-div img[alt="Ellipse5"] {
+    width: 16%;
+    position: absolute;
+    top: 9%;
+    right: 18%;
+}
+
+.b3-img-div img[alt="2"] {
+    width: 6%;
+    position: absolute;
+    top: 13%;
+    right: 23%;
+}
+
+/* ------------------------Banner 4--------------------------- */
+.b4 {
+    position: relative;
+    padding-top: 5%;
+    background-color: rgba(255, 255, 255, 0.301);
+    background-image: url(../images/Union.png);
+}
+
+.b2-img-div img[alt="3"] {
+    width: 6%;
+    position: absolute;
+    top: 6%;
+    left: 21%;
+}
+
+.b2-des img[alt="ellipse"] {
+    position: absolute;
+    top: -2%;
+    left: 47%;
+    width: 26%;
+    z-index: -1;
+}
+
+/* -----------------------------Banner-5------------------------------- */
+.about-section {
+    background-image: url(../images/Union.png);
+    background-color: white;
+    width: 100%;
+    border-top: 3px solid #f2968f;
+    box-shadow: 0px -1px 6px black;
+}
+
+.about-us-container {
+    position: relative;
+}
+
+.about-us-container img[alt="ellipse9"] {
+    position: relative;
+    margin: 6% 0% 3% 0%;
+    left: -19%;
+    width: 22%;
+}
+
+.about-us-container img[alt="#dog images"] {
+    position: absolute;
+    top: 25%;
+    left: 24.5%;
+    width: 13%;
+}
+
+.about-us-container>div {
+    position: absolute;
+    background-color: #dec1e9;
+    width: 57%;
+    text-align: left;
+    padding-left: 13%;
+    left: 24%;
+    top: 53%;
+}
+
+.about-us-container>div p {
+    font-size: 1.7rem;
+    margin: 2%;
+}
+
+.about-us-container>p {
+    font-size: 2rem;
+    position: absolute;
+    top: 41%;
+    left: 44%;
+}
+
+.card{
+    margin: 2% auto;
+    text-align: left;
 }
 
 
@@ -177,39 +292,45 @@ body {
     .myanimals {
         bottom: 8%;
     }
+
     .myanimals p,
     .myanimals button {
         font-size: 1rem !important;
     }
 
-     /* -------------------about section----------------------- */
-    
-     .about-us >p{
+    /* -------------------about section----------------------- */
+
+    .about-us>p {
         font-size: .9rem !important;
     }
 
-    .about-us > div>p{
+    .about-us>div>p {
         font-size: .65rem;
     }
-     /* banner 2 */
-     .b2-div{
+
+    /* banner 2 */
+    .b2-div {
         margin-top: 50px;
         padding-top: 25%;
     }
-    .b2-img-div{
+
+    .b2-img-div {
         padding: 0;
         width: 50%;
         margin: 0% auto;
     }
-    .b2-des{
-      text-align: center;
-      width: 80%;
-      margin: 0% auto;
+
+    .b2-des {
+        text-align: center;
+        width: 80%;
+        margin: 0% auto;
     }
-    .b2-des h2{
+
+    .b2-des h2 {
         font-size: 1.5rem;
     }
-    .b2-des p{
+
+    .b2-des p {
         font-size: 0.9rem !important;
         text-align: justify;
     }
@@ -229,63 +350,73 @@ body {
     #mynav li:nth-child(2n) {
         display: none;
     }
-   .myanimals {
+
+    .myanimals {
         bottom: 8%;
     }
-   .myanimals p,
+
+    .myanimals p,
     .myanimals button {
         font-size: 1rem !important;
     }
 
     /* -------------------about section----------------------- */
-    
-    .about-us >p{
+
+    .about-us>p {
         font-size: 1.4rem !important;
     }
 
-    .about-us > div>p{
+    .about-us>div>p {
         font-size: .8rem;
     }
-     /* banner 2 */
-     .b2-div{
+
+    /* banner 2 */
+    .b2-div {
         margin-top: 100px;
         padding-top: 180px;
     }
-    .b2-img-div{
+
+    .b2-img-div {
         padding: 0;
         width: 50%;
         margin: 0% auto;
     }
-    .b2-des{
-      text-align: center;
-      width: 80%;
-      margin: 0% auto;
+
+    .b2-des {
+        text-align: center;
+        width: 80%;
+        margin: 0% auto;
     }
-    .b2-des h2{
+
+    .b2-des h2 {
         font-size: 1.8rem;
     }
-    .b2-des p{
+
+    .b2-des p {
         font-size: 1.2rem !important;
         text-align: justify;
     }
 
 }
-   
+
 
 @media (min-width:768px) and (max-width:992px) {
-    
+
     /* banner 2 */
-    .b2-div{
+    .b2-div {
         margin-top: 170px;
         padding-top: 160px;
     }
-    .b2-des{
+
+    .b2-des {
         padding-top: 6.8%;
     }
-    .b2-des h2{
+
+    .b2-des h2 {
         font-size: 1.5rem;
     }
-    .b2-des p{
+
+    .b2-des p {
         font-size: 1.1rem !important;
     }
 }
@@ -293,13 +424,15 @@ body {
 @media (min-width:992px) and (max-width:1200px) {
 
     /* banner 2 */
-    .b2-div{
+    .b2-div {
         padding-top: 150px;
     }
-    .b2-des h2{
+
+    .b2-des h2 {
         font-size: 1.5rem;
     }
-    .b2-des p{
+
+    .b2-des p {
         font-size: 1.1rem !important;
     }
 
@@ -308,10 +441,11 @@ body {
 @media (min-width:1200px) and (max-width:1400px) {
 
     /* Banner 2 */
-    .b2-des h2{
+    .b2-des h2 {
         font-size: 1.8rem;
     }
-    .b2-des p{
+
+    .b2-des p {
         font-size: 1.3rem !important;
     }
 
